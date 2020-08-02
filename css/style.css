@@ -1,0 +1,254 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #161616;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #edf1fd;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 1330px;
+    background-position: right bottom;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: #161616;
+    z-index: 1;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 5);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #edf1fd;
+}
+
+.lang {
+    color: #ffffff;
+}
+
+.menu li a:hover {
+    font-weight: 700;
+    transition: all ease 0.5s;
+    color: #ffffff;
+    background-color: #292929;
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.name p:nth-child(1), .name .details {
+    color: #6c707c;
+    font-size: 16px;
+}
+
+.name h1 {
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #292929;
+}
+
+.cvbtn {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #ffffff;
+}
+
+.cvbtn:hover {
+    background-color: #babcc0;
+    transition: all ease 0.5s;
+}
+
+.social ul {
+    display: flex;
+    left: 50px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.social a {
+    color: rgba(18, 17, 17, 0.4);
+    margin: 6px 12px;
+}
+
+.social a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.social ul li .fa {
+    font-size: 30px;
+}
+
+#about {
+    padding: 90px;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#about-text {
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#about-text h1 {
+    padding-top: 40px;
+    color: #17D1AC;
+}
+
+#p1 {
+    padding-top: 20px;
+}
+
+.data {
+    font-size: 30px;
+    padding-top: 75px;
+}
+
+#skill{
+    /* font-size: 1px; */
+    width: 100%;
+    height: 100vh;
+
+    box-sizing: border-box;
+
+}
+
+.inner{
+    padding-top: 20px;
+}
+.header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+.header h1{
+    color: #17D1AC;
+    
+}
+.header h3{
+    color: #edf1fd;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+}
+
+.skill-box{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 0.5rem;   
+}
+
+
+.skill-title h3{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.skill-box p{
+    color: #edf1fd;
+    font-size: 17px;
+}
+
+.img{
+
+    width: 90px;
+    height: 90px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #292929;
+    border-radius: 45px;
+
+}
+.simg{
+ 
+    width: 50px;
+}
+
+.img:hover{
+
+    border:2px solid #babcc0;
+}
+
+@media screen and (max-width:650px){
+    .name{
+        grid-template-columns: 1fr;
+
+    }
+    .social{
+        grid-template-columns: 1fr;
+
+    }
+    .menu{
+        grid-template-columns: 1fr;
+    }
+    .about-text{
+        grid-template-columns: 1fr;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
