@@ -14,7 +14,7 @@ a {
 
 #main {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     box-sizing: border-box;
     background-color: #edf1fd;
@@ -232,23 +232,19 @@ nav {
 
     border:2px solid #babcc0;
 }
+@media (max-width:700px){
+    
 
-@media screen and (max-width:650px){
-    .name{
-        grid-template-columns: 1fr;
-
+    #main{
+        zoom: 0%;
+        /* display: grid; */
+        /* background: #edf1fd; */
+        width: 200%;
     }
-    .social{
-        grid-template-columns: 1fr;
-
+    #about{
+    width: 200vw;
     }
-    .menu{
-        grid-template-columns: 1fr;
-    }
-    .about-text{
-        grid-template-columns: 1fr;
-    }
-    .container{
-        grid-template-columns: 1fr;
+    #skill{
+        width: 200vw;
     }
 }
