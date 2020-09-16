@@ -267,10 +267,10 @@ html {
     #about {
         justify-content: center;
         padding-top: 100px;
-        width: 200vw;
+        width: 100vw;
     }
     #skill {
-        width: 200vw;
+        width: 100vw;
     }
 }
 
