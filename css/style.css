@@ -252,7 +252,7 @@ html {
     #main {
         background-image: none!important;
         background-color: #f5f5f5;
-        /* width: 200%; */
+        width: 200%;
     }
     .menu li a {
         padding: 12px 30px;
@@ -267,10 +267,10 @@ html {
     #about {
         justify-content: center;
         padding-top: 100px;
-        width: 100vw;
+        width: 200vw;
     }
     #skill {
-        width: 100vw;
+        width: 200vw;
     }
 }
 
