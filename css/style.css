@@ -252,7 +252,7 @@ html {
     #main {
         background-image: none!important;
         background-color: #f5f5f5;
-        width: 200%;
+        width: 250vw;
         /* font-size: 350px; */
     }
     .menu li a {
@@ -272,19 +272,19 @@ html {
         color: #0f1626;
     }
     .social ul li .fa {
-        font-size: 50px;
+        font-size: 40px;
     }
     #about-text h1{
         font-size: 40px;
     }
     #p1{
-        font-size: 30px;
+        font-size: 20px;
     }
     #p2{
-        font-size: 25px;
+        font-size: 20px;
     }
     .data {
-        font-size: 35px;
+        font-size: 25px;
      
     }
     .name {
@@ -295,12 +295,13 @@ html {
     #about {
         justify-content: center;
         padding-top: 100px;
-        width: 200vw;
+        width: 250vw;
         
     }
-    #skill {
+    #skill{
+
         font-size: 48px;
-        width: 200vw;
+        width: 250vw;
     }
     #skill h3{
         font-size: 30px;
