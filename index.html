@@ -2,145 +2,224 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-    <title>Kashyap Santoki</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&&display=swap" rel="stylesheet">
-    <link rel="home icon" href="images/home.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kashyap Santoki</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="JavaScript" href="script.js">
 </head>
 
 <body>
-    <!-- <section id="main">
-        <nav>
-            <ul class="menu">
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo">
+        <a href="#home">Ho<span>me</span></a></div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#project" class="menu-btn">Projects</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
 
-                <li><a href="#main">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skill">SKILLS</a></li>
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">
+          Hello, I'm</div>
+        <div class="text-2">
+          Kashyap Santoki</div>
+      </div>
+    </div>
+  </section>
 
-            </ul>
-
-        </nav>
-        <div class="name">
-            <p>Hello</p>
-            <h1>I'm <font color="#ff533d">Kashyap</font> Santoki</h1>
-            <p class="details">Data Scientist,Web Developer, Augmented Reality Developer and AI Enthusiast. </p>
-            <a href="Download/Kashyap Santoki.pdf" download class="cvbtn">Download CV</a>
+  <!-- about section start -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">
+        About me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="logo.jpg" alt="image">
+        </div> 
+        <div class="column right">
+          <div class="text">
+            I'm a 3<sup>rd</sup> year<span class="typing-2"></span></div>
+          <p>
+            MBA Tech student at Narsee Monjee Institute of Management Studies, INDIA
+            <br>
+            A way towards Artifical Intelligence and Augmented Reality
+          </p>
+          <a href="Kashyap Santoki.pdf">Download CV</a>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="social">
-            <ul>
-                <li><a href="https://www.facebook.com/santokikashyap" target="_blank"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/invites/contact/?i=scxmnaspx82u&utm_content=3l1zcu5"
-                        target="_blank"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/kashyap-santoki-b663b3192" target="_blank"><i
-                            class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/Kashyap85" target="_blank"><i class="fa fa-github"></i></a></li>
-
-            </ul>
+  <!-- project section start -->
+  <section class="project" id="project">
+    <div class="max-width">
+      <h2 class="title">
+        Latest Project Topics</h2>
+      <div class="project-content">
+        <div class="card">
+          <div class="box">
+            <a href="https://github.com/Kashyap85/House-Prediction-ML" target="_blank"><i class="fas fa-robot"></i></a>
+            <div class="text" >
+              Machine Learning
+              </div>
+            <!-- <p></p> -->
+          </div>
         </div>
-    </section>
+        <div class="card">
+          <div class="box">
 
-    <section id="about">
-        <div id="about-text">
-            <h1>About Us</h1>
-            <p id="p1">“Protons give an atom its identity, electrons its personality.”</p>
-            <p id="p2">- Bill Bryson, A short history of nearly everything</p>
-            <p class="data">I am a Data Scientist and Web Developer.<br>Pursuing 3<sup>rd</sup> Year MBA TECH from NMIMS
-                University,INDIA</p>
-
-        </div>
-
-    </section>
-
-    <section id="skill">
-        <div class="inner">
-            <div class="header">
-                <h1>My Skills</h1>
-                <h4>Here are the few skills for more download my CV</h3>
+            <a href="https://github.com/Kashyap85/House-Prediction-ML" target="_blank"><i class="fas fa-chart-line"></i></a>
+            <div class="text">
+              Data Science</div>
+              <!-- <p></p> -->
+              </div>
             </div>
-            <div class="container">
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/python.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>PYTHON</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/c.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>C</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/R.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>R</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/html.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>HTML</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/css.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>CSS</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/javascript.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>JAVASCRIPT</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/AI.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>AI</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/spark ar.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>SPARK AR</h3>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="images/docker.png" alt="unable to load image" class="simg">
-                        </div>
-                        <h3>DOCKER</h3>
-                    </div>
-                </div>
-            </div>
+            <div class="card">
+              <div class="box">
+            <a href="https://www.instagram.com/ar/757273301475262/" target="_blank"><i class="fas fa-paint-brush"></i></a>
+          
+            <div class="text">
+              AR Filter</div>
+            <!-- <p></p> -->
+          </div>
         </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- skills section start -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">
+        My skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills</div>
+          <p>
+          What ever I learn always try to implement it. <br><br><br>
+          Checkout my Augmented Reality Resume on Instagram Camera.
+          </p>
+          <a href="#">Augmented Reality Resume</a>
+        </div>
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>Python</span>
+              <span>90%</span>
+            </div>
+            <div class="line python">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html">
+            </div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>R</span>
+              <span>80%</span>
+            </div>
+            <div class="line r">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Machine Learning</span>
+              <span>70%</span>
+            </div>
+            <div class="line machinelearning">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Data Science</span>
+              <span>80%</span>
+            </div>
+            <div class="line data">
+            </div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>Docker</span>
+              <span>70%</span>
+            </div>
+            <div class="line docker">
+            </div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Spark AR</span>
+              <span>60%</span>
+            </div>
+            <div class="line spark">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    </section> -->
-    <h2> Under Maintenance</h2>
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">
+        Contact me</h2>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/santokikashyap" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/kashyap_santoki" target="_blank"><i
+                class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/kashyap-santoki-b663b3192" target="_blank"><i
+                class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/Kashyap85" target="_blank"><i class="fa fa-github"></i></a></li>
+
+        </ul>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- footer section start -->
+  <footer>
+    <span> Created By <a href="#">Kashyap Santoki</a> | &copy; 2020 All rights
+      reserved.</span>
+  </footer>
+
+  <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
+  <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
