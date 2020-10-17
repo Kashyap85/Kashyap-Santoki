@@ -522,6 +522,10 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .social ul li a{
+        font-size: 30px;
+        
+    } 
 }
 
 @media (max-width: 690px) {
