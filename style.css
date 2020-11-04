@@ -404,12 +404,13 @@ section .title::after{
 
 }
 
-
-
-.social a:hover {
-    color: #e94560;
+.social img{
+    height: 60px;
 }
 
+.social img:hover {
+    height: 62px;
+}
 
      
 .social ul li{
@@ -418,7 +419,7 @@ section .title::after{
     list-style: none;
 }
 
-.social ul li a{
+.social ul li img{
     font-size: 50px;
     font-weight: 700;
     color: #0f1626;
@@ -524,7 +525,7 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-    .social ul li a{
+    .social ul li img{
         font-size: 30px;
         
     } 
